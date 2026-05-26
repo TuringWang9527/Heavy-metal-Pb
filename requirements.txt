@@ -8,3 +8,4 @@ xgboost==3.0.2
 shap==0.44.1
 openpyxl
 plotly
+CatBoostRegressor
