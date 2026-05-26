@@ -30,7 +30,7 @@ div[class*="stText"], div[class*="stNumberInput"], div[class*="stSelectbox"] { t
 # ---------------------- 3. 加载模型 ----------------------
 # 注意：这个模型必须是用下面 15 个 Pb 数据集特征训练的。
 # 如果仍然使用旧 SMX 数据集训练的 XGBoost.joblib，预测会报错或结果无效。
-MODEL_PATH = Path("XGBoost.joblib")
+MODEL_PATH = Path("catboost_model.joblib")
 
 
 @st.cache_resource
